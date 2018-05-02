@@ -1,0 +1,122 @@
+nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav div{
+  display: inline-block;
+  vertical-align: middle;
+}
+nav div:first-child{
+  width: 30%;
+}
+nav div:last-child{
+  width: 70%;
+  text-align: right;
+}
+nav div:last-child a{
+  margin-left: 3%;
+}
+.container{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+nav div:last-child a:first-child{
+  display: none;
+}
+header iframe{
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+header::after{
+  content: "hello";
+  color: white;
+  position: absolute;
+  width:100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(../img/grid.png);
+  z-index: -1;
+}
+.intro{
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0;
+}
+.intro__article{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.intro .intro__article h2{
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  line-height: 65px;
+}
+.intro .intro__article h3{
+color: #fff;
+font-size: 30px;
+text-transform: uppercase;
+margin-bottom: 30px;
+line-height: 25px;
+}
+.intro .intro__article p{
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+  line-height: 25px;
+}
+.intro .intro__article a{
+  text-transform: uppercase;
+  background-color: #ffc400;
+  color: #333;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.intro__register_form{
+  width: 50%;
+  background-color: rgba(20, 20,20, 0.65);
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 30px 10px 40px;
+  text-align: center;
+}
+.intro__register_form input{
+font-size: 14px;
+height: 25px;
+margin:10px;
+}
+.intro__register_form h4{
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding: 0;
+}
+.intro__register_form p{
+  color: #fff;
+  line-height: 20px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+  text-align: center;
+}
+.intro__register_form #submit{
+  background-color: #ffc400;
+  border: 2px solid #ffc400;
+  color: #333;
+  height: 40px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

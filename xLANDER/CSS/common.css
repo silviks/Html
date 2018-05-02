@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  font-family: "Oswald",sans-serif;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.bg-transparent{
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+nav div:first-child small{
+  color: yellow;
+}
+nav .active{
+  color: yellow;
+}
+nav div a{
+  font-size: 15px;
+}
+nav div:first-child a{
+  font-size: 40px;
+}
+nav div:last-child a:hover{
+  color: yellow;
+}
