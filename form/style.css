@@ -1,0 +1,39 @@
+.container{
+  border:1px solid #ccc;
+  width: 50%;
+  height: 500px;
+  padding:2%;
+}
+.nav-pills #right{
+  margin-left: 310px;
+}
+.tab-pane {
+  text-align: center;
+}
+#login form{
+  margin-top: 50px;
+}
+ button{
+  margin-top:10px;
+  width: 200px;
+  height: 50px;
+}
+#login button{
+  margin-bottom: 15px;
+}
+#login .checkbox{
+  margin-top:20px;
+}
+
+.form-inline{
+  text-align: justify;
+  width: 100%;
+}
+.name .form-control{
+  width:49%;
+  margin-left: 2px;
+}
+.birthday .form-control{
+  width: 32%;
+  margin-left: 3px;
+}
